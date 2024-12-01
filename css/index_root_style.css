@@ -346,3 +346,61 @@ body {
         width: auto;
         background-color: red;
 }
+.unique-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 300px;
+    border: 1px solid #000;
+}
+
+.unique-slider {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    cursor: grab; /* Show a grab cursor */
+}
+
+.unique-slider-wrapper {
+    display: flex;
+    transition: transform 0.5s ease-in-out; /* Smooth slide animation */
+    will-change: transform; /* Optimizes animation */
+}
+
+.unique-slider-item {
+    min-width: 200px;
+    margin-right: 15px;
+    background-color: lightgray;
+    color: black;
+    text-align: center;
+    line-height: 300px;
+    font-size: 18px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.unique-prev-btn, .unique-next-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px 15px;
+    z-index: 10;
+    border-radius: 50%;
+}
+
+.unique-prev-btn {
+    left: 10px;
+}
+
+.unique-next-btn {
+    right: 10px;
+}
+
+.unique-prev-btn:hover, .unique-next-btn:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}

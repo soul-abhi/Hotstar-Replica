@@ -65,8 +65,51 @@ var swiper = new Swiper(".mySwiper", {
 
 
 
+    const sliderWrapper = document.querySelector('.unique-slider-wrapper');
+    const cards = document.querySelectorAll('.unique-slider-item');
+    let currentCardIndex = 0;
 
+    // Add an event listener to each card
+    cards.forEach((card, index) => {
+        card.addEventListener('mouseenter', () => {
+            // Update the current card index when hovering over a card
+            currentCardIndex = index;
 
-// Sec
+            // Add a keydown event for arrow key navigation
+            document.addEventListener('keydown', handleArrowKey);
+        });
 
-//   swiper slider car 1
+        card.addEventListener('mouseleave', () => {
+            // Remove keydown event listener when leaving a card
+            document.removeEventListener('keydown', handleArrowKey);
+        });
+    });
+
+    function handleArrowKey(e) {
+        if (e.key === 'ArrowRight') {
+            moveToNextCard();
+        } else if (e.key === 'ArrowLeft') {
+            moveToPreviousCard();
+        }
+    }
+
+    function moveToNextCard() {
+        if (currentCardIndex < cards.length - 1) {
+            currentCardIndex++;
+            updateSliderPosition();
+        }
+    }
+
+    function moveToPreviousCard() {
+        if (currentCardIndex > 0) {
+            currentCardIndex--;
+            updateSliderPosition();
+        }
+    }
+
+    function updateSliderPosition() {
+        const cardWidth = cards[0].offsetWidth + 15; // Width + margin
+        const newTranslateX = -currentCardIndex * cardWidth;
+        sliderWrapper.style.transform = `translateX(${newTranslateX}px)`;
+    }
+
