@@ -94,3 +94,253 @@ document.addEventListener('DOMContentLoaded', () => {
         updateSliderPosition(); // Update the position of the slider
     });
 });
+changeVideo(currentVideoIndex);
+
+var swiper = new Swiper(".mySwiper", {
+    effect: "coverflow",
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: "auto",
+    coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows: true,
+    },
+    pagination: {
+        el: ".swiper-pagination",
+    },
+});
+
+document.addEventListener('DOMContentLoaded', () => {
+    const sliderWrapper = document.querySelector('.unique-slider-wrapper');
+    const prevBtn = document.querySelector('.unique-prev-btn');
+    const nextBtn = document.querySelector('.unique-next-btn');
+    const cards = document.querySelectorAll('.unique-slider-item');
+    const totalCards = cards.length; // Get the total number of cards
+    let currentIndex = 0; // Index of the current card
+    const cardWidth = cards[0].offsetWidth + 15; // Width of each card including margin
+
+    function updateSliderPosition() {
+        // Update the transform property to move the slider
+        const offset = -currentIndex * cardWidth;
+        sliderWrapper.style.transform = `translateX(${offset}px)`;
+    }
+
+    prevBtn.addEventListener('click', () => {
+        // Move to the previous card
+        if (currentIndex > 0) {
+            currentIndex--; // Decrease the index (move left)
+        }
+        updateSliderPosition(); // Update the position of the slider
+    });
+
+    nextBtn.addEventListener('click', () => {
+        // Move to the next card
+        if (currentIndex < totalCards - 1) {
+            currentIndex++; // Increase the index (move right)
+        }
+        updateSliderPosition(); // Update the position of the slider
+    });
+});
+changeVideo(currentVideoIndex);
+
+var swiper = new Swiper(".mySwiper", {
+    effect: "coverflow",
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: "auto",
+    coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows: true,
+    },
+    pagination: {
+        el: ".swiper-pagination",
+    },
+});
+
+document.addEventListener('DOMContentLoaded', () => {
+    const sliderWrapper = document.querySelector('.unique-slider-wrapper');
+    const prevBtn = document.querySelector('.unique-prev-btn');
+    const nextBtn = document.querySelector('.unique-next-btn');
+    const cards = document.querySelectorAll('.unique-slider-item');
+    const totalCards = cards.length; // Get the total number of cards
+    let currentIndex = 0; // Index of the current card
+    const cardWidth = cards[0].offsetWidth + 15; // Width of each card including margin
+
+    function updateSliderPosition() {
+        // Update the transform property to move the slider
+        const offset = -currentIndex * cardWidth;
+        sliderWrapper.style.transform = `translateX(${offset}px)`;
+    }
+
+    prevBtn.addEventListener('click', () => {
+        // Move to the previous card
+        if (currentIndex > 0) {
+            currentIndex--; // Decrease the index (move left)
+        }
+        updateSliderPosition(); // Update the position of the slider
+    });
+
+    nextBtn.addEventListener('click', () => {
+        // Move to the next card
+        if (currentIndex < totalCards - 1) {
+            currentIndex++; // Increase the index (move right)
+        }
+        updateSliderPosition(); // Update the position of the slider
+    });
+});
+changeVideo(currentVideoIndex);
+
+var swiper = new Swiper(".mySwiper", {
+    effect: "coverflow",
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: "auto",
+    coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows: true,
+    },
+    pagination: {
+        el: ".swiper-pagination",
+    },
+});
+
+document.addEventListener('DOMContentLoaded', () => {
+    const sliderWrapper = document.querySelector('.unique-slider-wrapper');
+    const prevBtn = document.querySelector('.unique-prev-btn');
+    const nextBtn = document.querySelector('.unique-next-btn');
+    const cards = document.querySelectorAll('.unique-slider-item');
+    const totalCards = cards.length; // Get the total number of cards
+    let currentIndex = 0; // Index of the current card
+    const cardWidth = cards[0].offsetWidth + 15; // Width of each card including margin
+
+    function updateSliderPosition() {
+        // Update the transform property to move the slider
+        const offset = -currentIndex * cardWidth;
+        sliderWrapper.style.transform = `translateX(${offset}px)`;
+    }
+
+    prevBtn.addEventListener('click', () => {
+        // Move to the previous card
+        if (currentIndex > 0) {
+            currentIndex--; // Decrease the index (move left)
+        }
+        updateSliderPosition(); // Update the position of the slider
+    });
+
+    nextBtn.addEventListener('click', () => {
+        // Move to the next card
+        if (currentIndex < totalCards - 1) {
+            currentIndex++; // Increase the index (move right)
+        }
+        updateSliderPosition(); // Update the position of the slider
+    });
+});
+changeVideo(currentVideoIndex);
+
+var swiper = new Swiper(".mySwiper", {
+    effect: "coverflow",
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: "auto",
+    coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows: true,
+    },
+    pagination: {
+        el: ".swiper-pagination",
+    },
+});
+
+document.addEventListener('DOMContentLoaded', () => {
+    const sliderWrapper = document.querySelector('.unique-slider-wrapper');
+    const prevBtn = document.querySelector('.unique-prev-btn');
+    const nextBtn = document.querySelector('.unique-next-btn');
+    const cards = document.querySelectorAll('.unique-slider-item');
+    const totalCards = cards.length; // Get the total number of cards
+    let currentIndex = 0; // Index of the current card
+    const cardWidth = cards[0].offsetWidth + 15; // Width of each card including margin
+
+    function updateSliderPosition() {
+        // Update the transform property to move the slider
+        const offset = -currentIndex * cardWidth;
+        sliderWrapper.style.transform = `translateX(${offset}px)`;
+    }
+
+    prevBtn.addEventListener('click', () => {
+        // Move to the previous card
+        if (currentIndex > 0) {
+            currentIndex--; // Decrease the index (move left)
+        }
+        updateSliderPosition(); // Update the position of the slider
+    });
+
+    nextBtn.addEventListener('click', () => {
+        // Move to the next card
+        if (currentIndex < totalCards - 1) {
+            currentIndex++; // Increase the index (move right)
+        }
+        updateSliderPosition(); // Update the position of the slider
+    });
+});
+changeVideo(currentVideoIndex);
+
+var swiper = new Swiper(".mySwiper", {
+    effect: "coverflow",
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: "auto",
+    coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows: true,
+    },
+    pagination: {
+        el: ".swiper-pagination",
+    },
+});
+
+document.addEventListener('DOMContentLoaded', () => {
+    const sliderWrapper = document.querySelector('.unique-slider-wrapper');
+    const prevBtn = document.querySelector('.unique-prev-btn');
+    const nextBtn = document.querySelector('.unique-next-btn');
+    const cards = document.querySelectorAll('.unique-slider-item');
+    const totalCards = cards.length; // Get the total number of cards
+    let currentIndex = 0; // Index of the current card
+    const cardWidth = cards[0].offsetWidth + 15; // Width of each card including margin
+
+    function updateSliderPosition() {
+        // Update the transform property to move the slider
+        const offset = -currentIndex * cardWidth;
+        sliderWrapper.style.transform = `translateX(${offset}px)`;
+    }
+
+    prevBtn.addEventListener('click', () => {
+        // Move to the previous card
+        if (currentIndex > 0) {
+            currentIndex--; // Decrease the index (move left)
+        }
+        updateSliderPosition(); // Update the position of the slider
+    });
+
+    nextBtn.addEventListener('click', () => {
+        // Move to the next card
+        if (currentIndex < totalCards - 1) {
+            currentIndex++; // Increase the index (move right)
+        }
+        updateSliderPosition(); // Update the position of the slider
+    });
+});
