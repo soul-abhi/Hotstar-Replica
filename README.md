@@ -1,60 +1,50 @@
 # 🚧 MotStar Replica (Under Development)
 
-### 🌟 Bringing Talent to the Spotlight, One Feature at a Time
+### 🌟 A Passion Project to Showcase Talent – Built with HTML, CSS & JavaScript
 
-Welcome to the **MotStar Replica** – a personal project aimed at recreating or drawing inspiration from the MotStar platform. This project is currently a **Work in Progress**, and I'm passionately building it to explore, learn, and improve my skills in full-stack development, design, and performance optimization.
-
----
-
-## 📌 Project Goals
-
-The goal of this replica is to:
-- Learn and implement complex UI/UX interactions
-- Recreate real-world social or talent-based platform logic
-- Practice responsive design, authentication, and video content integration
-- Deliver a smooth user experience with animations and component-based structure
+Hey there! This is a **MotStar-inspired replica** that I'm currently building using pure **HTML, CSS, and JavaScript**. It's a work in progress, and I’m doing my best to make it smooth, stylish, and functional – just like the real thing!
 
 ---
 
-## ⚙️ Tech Stack (Planned & In Use)
+## 📌 Project Objective
 
-- **Frontend:** React.js, Tailwind CSS, Framer Motion
-- **Backend (Coming Soon):** Node.js, Express.js, MongoDB
-- **Authentication:** JWT / Firebase Auth *(to be decided)*
-- **Storage:** Cloudinary / Firebase Storage *(TBD for media uploads)*
-- **Deployment:** Netlify / Render / Vercel
-
----
-
-## 🔄 Current Status
-
-| Feature                | Status     |
-|------------------------|------------|
-| 🏠 Landing Page        | ✅ In Progress |
-| 🔐 Authentication      | ⏳ Planned |
-| 📹 Video Upload System | ⏳ Planned |
-| 🎨 UI/UX Design        | ✅ Designing with Figma |
-| 📱 Mobile Responsive   | ⏳ Upcoming |
-| 🧠 Backend APIs        | ⏳ Will be implemented next phase |
+The goal of this project is to:
+- Recreate the look and feel of the original MotStar platform
+- Improve my frontend skills (especially in animations and layouts)
+- Practice responsive design and modern UI/UX with only core web tech (no frameworks)
+- Add interactivity using vanilla JavaScript
 
 ---
 
-## 🚀 Project Vision
+## ⚙️ Tech Stack
 
-> **“Every line of code brings me closer to a platform that empowers creativity and talent.”**  
-> I’m doing my best to make this replica functional, beautiful, and performance-driven.
+| Area         | Technology Used    |
+|--------------|--------------------|
+| 💻 Structure | HTML5              |
+| 🎨 Styling   | CSS3 (Flexbox, Grid, Animations) |
+| 🧠 Logic     | JavaScript (Vanilla JS) |
+| 🎯 Hosting   | GitHub Pages / Netlify (Coming Soon) |
 
 ---
 
-## 🛠️ How to Run (Once Released)
+## 🔄 Current Progress
+
+| Feature                  | Status        |
+|--------------------------|---------------|
+| 🏠 Home Page UI          | ✅ In Progress |
+| 📱 Responsive Layout     | ⏳ Upcoming    |
+| 🎥 Video Showcase Section| ⏳ Upcoming    |
+| 🔐 Login/Signup UI       | ⏳ Planned     |
+| 🎨 UI Polishing          | ✅ Ongoing     |
+
+> I'm updating this regularly with new features and improvements.
+
+---
+
+## 🚀 How to Run Locally
 
 ```bash
-# Clone the repository
+# 1. Clone the repo
 git clone https://github.com/your-username/motstar-replica.git
-cd motstar-replica
 
-# Install dependencies
-npm install
-
-# Start development server
-npm start
+# 2. Open index.html in your browser
